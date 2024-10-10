@@ -3,6 +3,7 @@ import ExternalPostPicture from "../../components/ExternalPostPicture";
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
+import AllPictures from "../../components/AllPictures";
 
 export function PostPicture() {
     return(
@@ -15,6 +16,7 @@ export function PostPicture() {
             <Row className="mb-4">
               <Col className="d-flex justify-content-center flex-column">
               <ExternalPostPicture/>
+              <AllPictures/>
               </Col>
             </Row>
             </Col>
