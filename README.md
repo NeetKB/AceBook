@@ -1,79 +1,35 @@
-## Acebook MERN Template
+# AceBook Project
 
-In this project, you are task with working on an existing application. A
-significant part of the challenge will be to familiarise yourself with the
-codebase you've inherited, as you work to **improve and extend** it.
+This repository is a FaceBook clone which aims to replicate its core functunalities.
 
-### Structure
+## Built with MERN
 
-This repo contains two applications:
+## 🌟 Features
 
-- A frontend React App
-- A backend api server
+    * Design & Responsiveness: Leverages Bootstrap for modern UI components and responsiveness.
+    * _User Authentication:_ Users can create an account and log in. Passwords are encrypted in the database.
 
-These two applications will communicate through HTTP requests, and need to be
-run separately.
+## 🔧 Prerequisites
 
-### Documentation
-
-[More documentation of the codebase and its architecture can be found here.](./DOCUMENTATION.md)
-It's recommended you all read the suggested docs _after making sure the whole
-setup below worked for everyone_. Then work together on a diagram describing how
-the application works.
-
-### Card wall
-
-(https://trello.com/b/7QEqrpkv/mernie-sanders-acebook)
-
-### Quickstart
-
-### Install Node.js
-
-If you haven't already, make sure you have node and NVM installed.
-
-1. Install Node Version Manager (NVM)
-   ```
-   brew install nvm
-   ```
-   Then follow the instructions to update your `~/.bash_profile`.
-2. Open a new terminal
-3. Install the latest version of [Node.js](https://nodejs.org/en/), (`20.5.0` at
-   time of writing).
-   ```
-   nvm install 20
-   ```
+Ensure you have Node.js and MongoDB installed.
 
 ### Set up your project
 
-1. Have one team member fork this repository
-2. Rename the fork to `acebook-<team name>`
-3. Every team member clone the fork to their local machine
-4. Install dependencies for both the `frontend` and `api` applications:
-   ```
-   cd frontend
-   npm install
-   cd ../api
-   npm install
-   ```
-5. Install an ESLint plugin for your editor, for example
-   [ESLint for VSCode](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-6. Install MongoDB
-   ```
-   brew tap mongodb/brew
-   brew install mongodb-community@6.0
-   ```
-   _Note:_ If you see a message that says
-   `If you need to have mongodb-community@6.0 first in your PATH, run:`, follow
-   the instruction. Restart your terminal after this.
-7. Start MongoDB
+Install dependencies for both the `frontend` and `api` applications:
 
-   ```
-   brew services start mongodb-community@6.0
-   ```
+```
+cd frontend
+npm install
+cd ../api
+npm install
+```
+
+Install an ESLint plugin for your editor, for example
+[ESLint for VSCode](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
 ### Setting up environment variables.
 
-We need to create two `.env` files, one in the frontend and one in the api.
+You need to create two `.env` files, one in the frontend and one in the api.
 
 #### Frontend
 
@@ -115,9 +71,3 @@ In a new terminal session...
 
 You should now be able to open your browser and go to
 `http://localhost:5174/signup` to create a new user.
-
-Then, after signing up, you should be able to log in by going to
-`http://localhost:5174/login`.
-
-After logging in, you won't see much but you can create posts using PostMan and
-they should then show up in the browser if you refresh the page.
