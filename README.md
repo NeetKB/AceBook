@@ -2,12 +2,17 @@
 
 This repository is a FaceBook clone which aims to replicate its core functunalities.
 
-## Built with MERN
+## Built with MERN, Bootstra, HTML, CSS
 
 ## 🌟 Features
 
-    * Design & Responsiveness: Leverages Bootstrap for modern UI components and responsiveness.
-    * _User Authentication:_ Users can create an account and log in. Passwords are encrypted in the database.
+    * Authentication: Secure user authentication implemented using JWT for session management, with encrypted passwords stored in a MongoDB database.
+    * State Management: Managed application state efficiently using React for seamless user interactions and  data handling.
+    * Responsive Design: Designed a responsive and user-friendly interface with Bootstrap, HTML, and CSS.
+    * API Integration: Developed APIs using Node.js and Express to handle user actions such as creating posts, commenting on posts, and liking posts.
+    * Database Operations: Utilized MongoDB for data storage, enabling robust handling of user profiles and posts.
+    * Dynamic Frontend: Built interactive frontend components with React, ensuring modularity and maintainability.
+    * Media Uploads: Implemented functionality for uploading and displaying media files, such as photos and videos.
 
 ## 🔧 Prerequisites
 
