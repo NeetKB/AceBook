@@ -2,7 +2,7 @@
 
 This repository is a FaceBook clone which aims to replicate its core functunalities.
 
-## Built with MERN, Bootstra, HTML, CSS
+## Built with MERN, Bootstrap, HTML, CSS, Jest and Vitest
 
 ## 🌟 Features
 
